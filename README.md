@@ -1,6 +1,5 @@
-# Credit-Spher3
 CreditSphere-AI/
-│
+
 ├── README.md
 ├── package.json
 ├── tsconfig.json
