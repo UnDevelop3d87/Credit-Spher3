@@ -2,3 +2,17 @@
 :root{--bg:#020617;--fg:#e6f7ff}
 html,body,#__next{height:100%}
 body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:var(--fg);background:var(--bg)}
+
+/* Logo sizing: responsive for desktop and mobile */
+.logo{
+  width:256px;
+  height:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+@media (max-width:600px){
+  .logo{ width:120px; }
+  main { padding: 24px; }
+}
