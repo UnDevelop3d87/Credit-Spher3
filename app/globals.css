@@ -1,0 +1,4 @@
+/* minimal global styles used by app/layout.tsx */
+:root{--bg:#020617;--fg:#e6f7ff}
+html,body,#__next{height:100%}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:var(--fg);background:var(--bg)}
