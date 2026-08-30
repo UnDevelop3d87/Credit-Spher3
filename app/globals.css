@@ -1,0 +1,24 @@
+/* minimal global styles used by app/layout.tsx */
+:root{--bg:#020617;--fg:#e6f7ff}
+html,body,#__next{height:100%}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:var(--fg);background:var(--bg)}
+
+/* Header */
+.app-header{position:fixed;top:8px;left:8px;z-index:1000}
+.logo-button{background:transparent;border:0;padding:0;display:inline-flex;align-items:center;cursor:pointer}
+.logo-button img{width:72px;height:auto;border-radius:8px}
+
+/* Logo sizing: responsive for desktop and mobile */
+.logo{
+  width:256px;
+  height:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+@media (max-width:600px){
+  .logo{ width:120px; }
+  main { padding: 24px; }
+  .logo-button img{ width:48px }
+}
