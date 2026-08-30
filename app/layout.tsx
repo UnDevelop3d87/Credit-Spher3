@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Credit Sphere",
     description: "AI-powered credit insights and financial health tools",
-    images: ["/og-image.svg"],
+    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/og-image.svg"],
+    images: ["/og-image.png"],
   },
 };
 
@@ -21,8 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.svg" />
-        <link rel="apple-touch-icon" href="/logo-small.svg" />
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#020617" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
